@@ -1,14 +1,41 @@
 body {
-    background: #f8f8f8;
+background-color : #263238;
+font-size : 15px;
+font-family : Times;
+background-attachment : fixed;
+max-width : 600px;
+margin : auto;
 }
-
 h1 {
     text-align: center;
     font-family: sans-serif;
     font-weight: 300;
     color: green;
 }
-
+div {
+background-color : #fff;
+margin : 1px;
+padding : 2px;
+}
+.header {
+color : #fff;
+padding:5px;
+font-weight:height;
+font-size: 24px;
+background-color : #2196f3;
+background-repeat : no-repeat;
+background-position : right 50%;
+text-align:center;
+}
+.line {
+background-repeat : repeat-x;
+background-position : 50% top;
+border : 1px solid #ececec;
+padding:3px;
+text-align:center;
+font-family: cursive;
+font-size: 24px;
+}
 #celebrate-img {
     border: 14px dashed #fff;
     width: 292px;
@@ -147,6 +174,53 @@ h1 {
     background: #fff;
     color: #2196F3;
     display: none;
+}
+.footer {
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    border-bottom-color: #1D1F21;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #1D1F21;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #1D1F21;
+    border-right-style: solid;
+    border-right-width: 1px;
+    background: #1D1F21;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: #1D1F21;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: solid;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 1px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: #1D1F21;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: solid;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 1px;
+    border-top-color: #1D1F21;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: white;
+    font-size: small;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    text-shadow: -1px 0px 4px transparent;
+    text-align: center;
+    padding: 20px;
+    width: 500;
 }
 
 @-webkit-keyframes down {
