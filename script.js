@@ -49,7 +49,7 @@
             },
             method: 'POST',
             headers: {
-                Authorization: 'Client-ID 9ac8502e00ab613'
+                Authorization: 'Client-ID b558ac1b6bb7a20'
             },
             data: {
                 image: dataUrl.replace(/.*,/, ''),
