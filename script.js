@@ -118,9 +118,9 @@
             ctx.drawImage(this, 0, 0, rw, rh);
 
             ctx.globalAlpha = 0.4;
-            ctx.fillStyle = '#01796F';
+            ctx.fillStyle = 'green';
             ctx.fillRect(0, 0, cw, ch);
-            ctx.fillStyle = '#E11837';
+            ctx.fillStyle = 'red';
             ctx.arc(oneTenths * 4.5, oneTenths * 3, oneTenths * 2, 0, 2 * Math.PI);
             ctx.fill();
 
