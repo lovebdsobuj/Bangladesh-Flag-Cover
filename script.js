@@ -74,7 +74,7 @@
      */
     function generator(url, cross) {
         $wrap_img.addClass('generator');
-        rainbowLGBT(url, cross, 320, function (img) {
+        rainbowLGBT(url, cross, 520, function (img) {
             dataUrl = img;
             $wrap_img.html('<a href="' + img + '" download="CelebratePride.jpg"><img src="' + img + '" alt="Celebrate Pride"></a>');
             $input.prop('disable', false).val('');
